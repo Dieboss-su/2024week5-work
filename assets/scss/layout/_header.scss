@@ -1,0 +1,23 @@
+.sidenav{
+  width: 296px;
+  .navbar-brand{
+    padding-top: 40px;
+    padding-left: 32px;
+  }
+  .andy{
+    width: 40px;
+    height: 40px;
+    
+  }
+  li a{
+    padding-left: 32px;
+    color: $dark;
+  }
+  li a:hover{
+    color: $success;
+    border-left: 4px solid $success;
+  }
+}
+.mb-10{
+  margin-bottom: 40px;
+}
