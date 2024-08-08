@@ -13,7 +13,11 @@
     padding-left: 32px;
     color: $dark;
   }
-  li a:hover{
+  .nav-item a:hover{
+    color: $success;
+    border-left: 4px solid $success;
+  }
+  .navbar-nav .nav-link:focus{
     color: $success;
     border-left: 4px solid $success;
   }
